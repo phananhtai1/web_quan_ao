@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px) {
+  .search-cart {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+  }
+
+  ul.navbar-nav > li.nav-item > a {
+    padding: 10px 0px !important;
+    border-top: 1px solid #9e9e9e85;
+  }
+
+  ul.dropdown-menu {
+    background-color: #f1f2f5de;
+  }
+
+  .dropdown-menu {
+    float: none;
+    position: static;
+    padding: 0px;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .dropdown-menu.show {
+    max-height: 500px;
+    padding: .5rem 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  li.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-item .carousel-caption {
+    top: 40px;
+    left: 50px;
+    font-size: 14px;
+    max-width: 435px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header-info {
+    display: none;
+  }
+
+  #share .card {
+    margin-bottom: 15px;
+  }
+
+  #service {
+    display: none;
+  }
+}

@@ -1,0 +1,398 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*=========Header==============*/
+#header-info {
+  border-bottom: 1px solid #363636;
+}
+
+a.navbar-brand {
+  margin-right: 90px;
+  padding: 25px 0px;
+}
+
+ul.navbar-nav > li.nav-item > a {
+  display: block;
+  color: white !important;
+  font-weight: 500;
+  padding: 32px 15px !important;
+  text-transform: uppercase;
+}
+
+ul.navbar-nav li:hover > a {
+  text-decoration: none;
+  color: #e2524a !important;
+}
+
+.dropdown-menu {
+  left: 10px !important;
+}
+
+.dropdown-menu li a {
+  padding: 3px 50px 3px 25px;
+}
+
+.search-cart {
+  position: relative;
+  /* top: 0px;
+    right: 0px; */
+}
+
+.search-cart a.fa-search {
+  color: white;
+  padding: 35px 5px;
+  cursor: pointer;
+}
+.search-cart a.fa-cart-plus {
+  color: white;
+  padding: 35px 15px 35px 5px;
+  cursor: pointer;
+}
+
+.search-cart a:hover {
+  color: #e2524a !important;
+}
+
+.search-cart span {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  border-radius: 15px;
+  background-color: #ff0000;
+  padding: 1px 7px;
+}
+
+.input-search {
+  display: inline-block;
+  font-size: 12px;
+  max-width: 145px;
+}
+
+input.open-input-search {
+  display: none;
+}
+
+
+/*==========WP-BANNER=============*/
+#wp-banner {
+  margin-bottom: 80px;
+}
+.carousel-item .carousel-caption {
+  max-width: 556px;
+  font-size: 18px;
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+
+.carousel-item .carousel-caption h3 {
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #e2524a;
+}
+
+.carousel-item .carousel-caption a {
+  display: inline-block;
+  padding: 7px 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+  opacity: 1;
+}
+
+.carousel-indicators button.active {
+  opacity: 1;
+  background-color: #e2524a !important;
+}
+
+/*===========WP-CONTENT==========*/
+/*=========Service=======*/
+#service,
+#best-seller {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 80px;
+}
+.service-content .service-item {
+  min-height: 105px;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.service-item:hover i,
+.service-item:hover p {
+  color: #e2524a;
+}
+
+.service-item i {
+  font-size: 48px;
+  color: #888787;
+}
+
+.service-content .service-item p {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*=======Product-New========*/
+.box .box-head .box-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.box .box-head .box-subtitle {
+  color: #837d7d;
+  margin-bottom: 40px;
+}
+
+.product-item {
+  margin-bottom: 30px;
+}
+
+.product-item .product-info {
+  padding: 15px 0px 10px 0px;
+}
+
+.product-info .product-title {
+  font-weight: 600;
+  color: #514545;
+  padding: 8px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.product-info .product-price {
+  color: #514545;
+}
+
+.product-info .product-review i.fas {
+  color: #ffa500;
+}
+
+.product-item a.product-thumb {
+  overflow: hidden;
+}
+
+.product-item .product-thumb img {
+  transition: transform 0.5s;
+}
+
+.product-item:hover .product-thumb img {
+  transform: scale(1.2);
+}
+
+.product-item:hover .product-info .product-title {
+  color: #e2524a;
+}
+
+.product-type {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.product-shose .shose {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.shose h3 {
+  font-size: 48px;
+  text-align: end;
+  margin-bottom: 24px;
+}
+
+.shose a {
+  padding: 12px 34px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.product-shose:hover a {
+  background-color: #e2524a;
+}
+
+.product-type .product-shose:hover img,
+.clock:hover img,
+.clothes:hover img {
+  transform: scale(1.2);
+}
+
+.product-type img {
+  transition: transform 0.5s;
+}
+
+/*==========Best-Sale=======*/
+#best-seller .item .product-item {
+  padding: 0px 15px;
+}
+
+#best-seller .owl-theme .owl-dots {
+  display: none;
+}
+
+.list-product .owl-nav button.owl-prev,
+.list-product .owl-nav button.owl-next {
+  margin: 0px;
+}
+.list-product .owl-nav button.owl-prev {
+  margin-right: 5px;
+}
+
+.list-product .owl-nav button:hover span {
+  background-color: #e2524a;
+}
+
+.list-product .owl-nav button span {
+  font-size: 25px;
+  background-color: #343434;
+  color: white;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+/*==========SHARE===========*/
+#share .card .card-body {
+  text-align: center;
+  padding: 15px;
+}
+
+.card .card-body .card-subtitle {
+  font-size: 11px;
+}
+.card .card-body .card-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #141414;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding: 15px 0px;
+}
+
+.card .card-body .date-time {
+  color: #6c757d;
+  margin-bottom: 0px;
+}
+
+.card .card-body .post-content {
+  color: #343434;
+  line-height: 25px;
+  margin: 15px 0px 25px 0px;
+}
+
+.card a {
+  overflow: hidden;
+}
+
+.card .card-img {
+  transition: transform 0.5s;
+  display: block;
+}
+
+.card:hover .card-body .card-title {
+  color: #e2524a;
+}
+
+.card:hover .card-img {
+  transform: scale(1.2);
+}
+
+.see-more {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 4px 44px;
+  border: 1px solid #eeeeee;
+}
+
+.see-more:hover {
+  background-color: #e2524a;
+  color: white;
+  text-decoration: none;
+}
+/*========FOOTER===========*/
+#footer {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+#footer .footer-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #e2524a;
+  font-size: 16px;
+}
+
+#footer ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0px;
+  display: block;
+}
+
+#footer ul li:hover a {
+  color: #e2524a;
+}
+
+#footer .address ul li:first-child {
+  padding-right: 30px;
+  line-height: 27px;
+}
+
+#footer .address,
+#footer .introducted {
+  margin-bottom: 15px;
+}
+
+.back-top {
+  display: none;
+  padding: 13px;
+  background-color: #c83a3a;
+  color: aquamarine !important;
+  font-size: 20px;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.back-top:hover {
+  text-decoration: none;
+  color: rgb(68, 15, 15) !important;
+}
+
+/*=========copy-right==========*/
+#copyright-footer {
+  background-color: #e2524a;
+  padding: 13px 0px;
+}
+
+#copyright-footer p {
+  font-weight: 600;
+  color: #dcdcdc;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
